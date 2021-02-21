@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding-top: 800px;
+    text-align: center;
 }
 
 .profile {
@@ -43,7 +44,7 @@ h1 {
 
 
 
-h2 { 
+h2 {
     font-size: 30px;
     font-weight: 300;
     line-height: 1.2;
@@ -57,7 +58,7 @@ h2 {
     font-size: 42px;
 }
 
-.line { 
+.line {
     height: 6px;
     background-color: #000;
     width: 70px;
@@ -88,10 +89,10 @@ p {
     top: 10px;
     right: 30px;
     z-index: 10;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
-.links { 
+.links {
     float: left;
     color: #fff;
     padding-top: 5px;
@@ -101,14 +102,26 @@ p {
     font-family: fantasy;
     font-size: 20px;
 }
-    
-.links:hover {
-        background-color: dodgerblue;
-    }
 
-    
+.links:hover {
+    background-color: dodgerblue;
 }
 
 
+a{
+    text-decoration: none;
+    
+        
+}
+ 
+.article:hover {
+    color: #73c79f;
+}
+html {
+    scroll-behavior: smooth;
+}
 
 
+.article {
+    font-size: 35px;
+}
